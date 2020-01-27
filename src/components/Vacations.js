@@ -20,7 +20,7 @@ function Vacations({ vacations, destroyVacation }) {
           return (
             <li key={vacation.id}>
               <button onClick={() => destroyVacation(vacation)}>X</button>
-              {startDate} to {endDate} ({diff})
+              {startDate} to {endDate} ({diff} days)
             </li>
           );
         })}
